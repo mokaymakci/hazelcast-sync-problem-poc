@@ -1,0 +1,54 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+.gradle
+/build/
+/bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.apt_generated_tests
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Java ###
+*.class
+
+### Sonarqube ###
+.scannerwork
+
+### Logs ###
+/logs/
+debug*.log
+spring.log
+/spring.log.*
+*.log
+*.gz
+lydians.api.rest.backoffice/text
+.DS_Store
